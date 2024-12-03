@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Oxygen;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.1rem 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem 0 5rem;
+  align-items: center;
+}
+.main img {
+  width: 100px;
+  height: 1.2rem;
+}
+.main li ul {
+  margin-left: 0.75rem;
+  margin-top: -0.7rem;
+}
+.main li ul a {
+  margin: 0 1rem;
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+.secand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+.secand a {
+  color: black;
+  margin: 0 1rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+.icon-sixe {
+  font-size: 1.2rem;
+}
+.content {
+  position: relative;
+}
+
+.content-text {
+  position: absolute;
+  top: 12rem;
+}
+.content-text h1 {
+  font-size: 1.7rem;
+  margin-left: 8rem;
+  margin-bottom: 1.1rem;
+}
+
+.content-text p {
+  font-size: 1rem;
+  margin-left: 8rem;
+  margin-bottom: 1.5rem;
+}
+.content-text button {
+  background-color: #0067b8;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  margin-left: 8rem;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+.button-div a {
+  font-size: 2rem;
+}
+.button-div .right-icon {
+  margin-right: 0.8rem;
+}
+.button-div .left-icon {
+  margin-right: 0.8rem;
+}
+
+.main-content {
+  display: flex;
+  margin: 1rem 2rem 0 2rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 10rem;
+  /* flex-wrap: wrap; */
+}
+
+.content-list {
+  width: 17rem;
+  margin: 0 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-list .content-imgs img {
+  width: 17rem;
+  height: auto;
+}
+.content-list h1 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.content-list p {
+  margin: 1rem 1.1rem;
+}
+.content-list button {
+  background-color: #0067b8;
+  border: none;
+  margin: 1rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.content-list .secand-p {
+  margin: 1rem 1.1rem;
+  margin-bottom: 6rem;
+}
+
+.content-list .third-p {
+  margin: 1rem 1.1rem;
+  margin-bottom: 7.2rem;
+}
+
+.content-list .four-p {
+  margin: 1rem 1.1rem;
+  margin-bottom: 9.8rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 4rem 4rem;
+}
+.hero img {
+  width: 1200px;
+}
+.hero-detail {
+  position: absolute;
+  top: 13rem;
+  margin: 0% 6rem;
+}
+.hero-detail h1{
+  font-size: 1.8rem;
+}
+.hero-detail p{
+    margin-top: 1.6rem;
+    font-size: 0.9rem;
+}
+.hero-detail button{
+    background-color: #0067b8;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.for-business{
+    margin: 1rem 0 1rem 4rem;
+}
+.for-business h1{
+    font-size: 1.8rem;
+}
+.follow-mircrosoft{
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+.follow-mircrosoft p{
+    font-weight: 400;
+}
+.follow-mircrosoft a{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    display: flex;
+}
+.f-bar{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+}
+.f-bar p{
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #616f87;
+}
+.f-bar a{
+    font-size: 0.6rem;
+    margin-bottom: 1.4rem;
+    color: #616f87;
+    text-decoration: none;
+}
+
+
